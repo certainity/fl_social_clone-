@@ -66,6 +66,10 @@ The workflow:
 └── README.md              # This file
 ```
 
+## Development
+
+This project uses GitHub Actions for CI/CD. Every push to main triggers a deployment to GitHub Pages.
+
 ## License
 
 This project is open source and available under the MIT License.
