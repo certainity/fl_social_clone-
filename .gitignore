@@ -1,0 +1,32 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+coverage/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Flutter plugins
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# iOS
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/.generated/
+
+# macOS
+**/macos/Flutter/ephemeral/
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+
+# Web
+**/web/.dart_tool/
+
+# Others
+.DS_Store
