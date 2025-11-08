@@ -1,0 +1,31 @@
+name: simpleworld
+description: A simple social networking app built with Flutter and Firebase.
+publish_to: 'none'
+
+# Define the Dart SDK version compatible with the latest FlutterFire packages.
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase core services.  Version 4.2.1 is included in the FlutterFire BoM 4.5.0 (released Nov 3 2025)【334592974126364†L228-L250】.
+  firebase_core: ^4.2.1
+
+  # Firebase authentication plugin for user sign‑in/sign‑up【80463375560568†L37-L56】.
+  firebase_auth: ^6.1.2
+
+  # Firestore database for storing and streaming posts【703748061578847†L53-L55】.
+  cloud_firestore: ^6.1.0
+
+  # Simple state management.  The provider package is stable and easy to use.
+  provider: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
